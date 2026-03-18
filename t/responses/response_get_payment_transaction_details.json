@@ -1,0 +1,89 @@
+{
+    "uetr": "3e8d2edb-88cb-47e6-9105-1b0d903c28d8",
+    "transaction_status": "ACCC",
+    "initiation_date_time": "2024-03-16T13:22:45.000Z",
+    "completion_date_time": "2024-03-16T18:22:45.000Z",
+    "last_update_date_time": "2024-03-16T18:22:45.000Z",
+    "events_skipped": false,
+    "payment_event": [
+        {
+            "network_reference": "20240316134513436-010000000016",
+            "message_name_identification": "199",
+            "service_level": [
+                "G001"
+            ],
+            "tracker_event_type": "CTSU",
+            "valid": true,
+            "event_status": "ACCC",
+            "instruction_identification": "ABC123",
+            "tracker_informing_party": "BANKBBICXXX",
+            "charges_information": [
+                {
+                    "amount": {
+                        "currency": "USD",
+                        "amount": "50.00"
+                    },
+                    "agent": {
+                        "bicfi": "BANKBBICXXX"
+                    }
+                }
+            ],
+            "confirmed_date": "2024-03-16T18:22:45.000Z",
+            "confirmed_amount": {
+                "currency": "USD",
+                "amount": "940"
+            },
+            "from": "BANKBBICXXX",
+            "to": "TRCKCHZ0XXX",
+            "sender_acknowledgement_receipt_date_time": "2024-03-16T18:22:43.000Z",
+            "update_payment": "20240316134316100-010000000015",
+            "event_creation_date_time": "2024-03-16T18:22:45.000Z"
+        },
+        {
+            "network_reference": "20211125132213436-010000000016",
+            "message_name_identification": "pacs.008.001.08",
+            "service_level": [
+                "G001"
+            ],
+            "tracker_event_type": "CTPT",
+            "valid": true,
+            "event_status": "ACSP",
+            "event_status_date": "2024-03-16T13:22:45.000Z",
+            "event_status_reason": "G000",
+            "instruction_identification": "ABC123",
+            "tracker_informing_party": "BANKABICXXX",
+            "settlement_method": "INDA",
+            "instructed_agent": "BANKBBICXXX",
+            "technical_sender": "BANKABICXXX",
+            "technical_receiver": "BANKBBICXXX",
+            "interbank_settlement_date": "2024-11-25",
+            "instructed_amount": {
+                "currency": "USD",
+                "amount": "1000"
+            },
+            "interbank_settlement_amount": {
+                "currency": "USD",
+                "amount": "990"
+            },
+            "charge_bearer": "CRED",
+            "charges_information": [
+                {
+                    "amount": {
+                        "currency": "USD",
+                        "amount": "10"
+                    },
+                    "agent": {
+                        "bicfi": "BANKABICXXX"
+                    }
+                }
+            ],
+            "from": "BANKABICXXX",
+            "to": "BANKBBICXXX",
+            "debtor_agent": "BANKABICXXX",
+            "creditor_agent": "BANKBBICXXX",
+            "sender_acknowledgement_receipt_date_time": "2024-11-25T13:22:45.000Z",
+            "received_date_time": "2024-03-16T13:22:46.000Z",
+            "event_creation_date_time": "2024-03-16T13:22:45.000Z"
+        }
+    ]
+}
